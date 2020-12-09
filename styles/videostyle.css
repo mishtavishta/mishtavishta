@@ -1,0 +1,405 @@
+#headerdiv {
+	width:99%;
+	background-color: #0087FF;
+	font-size: 24pt;
+	border-radius: 35px 35px 0px 0px;
+	border-style: solid;
+	border-color: #0057A3;
+	border-width: 3px;
+}
+
+.row {
+	display: flex;
+	flex: 100%;
+}
+
+#navbar {
+	width:99%;
+	background-color: #0087FF;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16pt;
+	border-style: solid;
+	border-color: #0057A3;
+	border-width: 3px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-grid;
+	grid-template-areas: '1 2 3 4 5';
+}
+
+#homebutton {
+	background-color: #0087FF;
+	width: 200px;
+	border-radius: 25px;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #003666;
+	border-width: 1px;
+}
+
+#comingsoonbutton {
+	background-color: #0087FF;
+	width: 200px;
+	border-radius: 25px;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #003666;
+	border-width: 1px;
+	transition: 0.5;
+}
+
+#linksbutton {
+	background-color: #0087FF;
+	width: 200px;
+	border-radius: 25px;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #003666;
+	border-width: 1px;
+}
+
+#videobutton {
+	background-color: #49A9FF;
+	width: 200px;
+	border-radius: 25px;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #003666;
+	border-width: 3px;
+}
+
+#contactusbutton {
+	background-color: #0087FF;
+	width: 200px;
+	border-radius: 25px;
+	text-align: center;
+	margin: auto;
+	border-style: solid;
+	border-color: #003666;
+	border-width: 1px;
+}
+
+.listenbutton {
+	background-color: #0087FF;
+	width: 275px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 32px;
+	margin: auto;
+	border-style: solid;
+	border-color: #003666;
+	border-width: 1px;
+}
+
+#maincontentpanel {
+	background-color: rgba(0, 135, 255, 0);
+	width: 100%;
+	height: auto;
+	display: grid;
+	grid-template-areas: 'maincontent maincontent maincontent sidebar';
+}
+
+#maincontenttitle {
+	grid-area: title;
+}
+
+#maincontent {
+	grid-area: maincontent;
+	margin-right: 10px;
+	background-color: #0087FF;
+	width: 99%;
+	height: auto;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16pt;
+	border-style: solid;
+	border-color: #0057A3;
+	border-width: 3px;
+}
+
+#maincontentfield {
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0);
+	margin: 5px;
+	width: auto;
+	height: auto;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16pt;
+	border-radius: 25px;
+	display: grid;
+	grid-template-areas: 
+	"title"
+	"audio audio video video";
+}
+
+#sidebarfield {
+	padding: 5px;
+	background-color: #49A9FF;
+	margin: 5px;
+	width: auto;
+	height: auto;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16pt;
+	border-radius: 25px;
+}
+
+#sidebar {
+	grid-area: sidebar;
+	background-color: #0087FF;
+	width: 100%;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16pt;
+	border-style: solid;
+	border-color: #0057A3;
+	border-width: 3px;
+}
+
+#footerdiv {
+	width:99%;
+	margin-top: 10px;
+	background-color: #0087FF;
+	font-size: 24pt;
+	border-radius: 0px 0px 35px 35px;
+	border-style: solid;
+	border-color: #0057A3;
+	border-width: 3px;
+	display: grid;
+	grid-template-areas: 'aboutus quicknav legal';
+}
+
+#aboutusfootertitle {
+	font-family: 'Fira Sans', sans-serif;
+	margin-left: 20px;
+	width:200px;
+	font-size: 14pt;
+}
+
+#aboutusdiv {
+	font-family: 'Fira Sans', sans-serif;
+	margin-left: 20px;
+	width:200px;
+	margin-top: 10px;
+	font-size: 12pt;
+	grid-area: aboutus;
+}
+
+#aboutusfootertext {
+	font-family: 'Fira Sans', sans-serif;
+	margin-left: 20px;
+	font-size: 12pt;
+}
+
+#quicknavfootertitle {
+	font-family: 'Fira Sans', sans-serif;
+	margin-left: 20px;
+	width:200px;
+	font-size: 14pt;
+}
+
+#quicknavdiv {
+	font-family: 'Fira Sans', sans-serif;
+	margin-left: 20px;
+	width:200px;
+	margin-top: 10px;
+	font-size: 12pt;
+	grid-area: quicknav;
+}
+
+.quicknavlink {
+	font-family: 'Fira Sans', sans-serif;
+	margin-left: 20px;
+	font-size: 12pt;
+}
+
+#legalfootertitle {
+	font-family: 'Fira Sans', sans-serif;
+	margin-left: 20px;
+	width:200px;
+	font-size: 14pt;
+}
+
+#legaldiv {
+	font-family: 'Fira Sans', sans-serif;
+	margin-left: 20px;
+	width:200px;
+	margin-top: 10px;
+	font-size: 12pt;
+	grid-area: legal;
+}
+
+.legalfootertext {
+	font-family: 'Fira Sans', sans-serif;
+	margin-left: 20px;
+	font-size: 12pt;
+}
+
+nav {
+	padding-top: 10px;
+}
+
+h1 {
+	font-size: 36px;
+	color: #003666;
+}
+
+p, ul {
+	font-size: 24px;
+	color: #003666;
+}
+
+main {
+	padding-top: 10px;
+	width: 100%;
+}
+
+#BWMTitle {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 44pt;
+}
+
+#background {
+	background-image:url("../media/background.jpg");
+	background-size:cover;
+}
+
+.row {
+	display: flex;
+	flex: 100%;
+}
+
+.audio {
+	width: 100%;
+	background-color: #49A9FF;
+	border-radius: 35px;
+}
+
+.video {
+	width: 100%;
+	background-color: #49A9FF;
+	border-radius: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.column {
+	display: block;
+	flex: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#youtubeembed, video {
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 15px;
+}
+
+.audioelement {
+	margin: 10px;
+	padding-top: 25px;
+	width: 95%;
+}
+
+.eventtitle {
+	margin: 0px auto;
+	text-align: center;
+	text-shadow: 0px 0px 15px #FFFFFF;
+	width: 250px;
+	color: #003666;
+}
+
+a:link {
+	color: #003666;
+	transition-duration: 0.1s;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #003666;
+	text-decoration: none;
+}
+
+#homebuttontext:hover {
+	color: #003666;
+	letter-spacing: 3px;
+	transition-duration: 0.1s;
+	text-decoration: none;
+}
+
+#comingsoontext:hover {
+	color: #003666;
+	letter-spacing: 3px;
+	transition-duration: 0.1s;
+	text-decoration: none;
+}
+
+#linkstext:hover {
+	color: #003666;
+	letter-spacing: 3px;
+	transition-duration: 0.1s;
+	text-decoration: none;
+}
+
+#videotext:hover {
+	color: #003666;
+	letter-spacing: 3px;
+	transition-duration: 0.1s;
+	text-decoration: none;
+}
+
+#contactustext:hover {
+	color: #003666;
+	letter-spacing: 3px;
+	transition-duration: 0.1s;
+	text-decoration: none;
+}
+
+.listenbuttonlink:hover {
+	color: #003666;
+	letter-spacing: 3px;
+	transition-duration: 0.1s;
+	text-decoration: none;
+}
+
+a:active {
+	color: #003666;
+	text-decoration: none;
+}
+
+@media only screen and (max-width:1050px) {
+#navbar, main {
+grid-template-areas:
+	'1'
+	'2'
+	'3'
+	'4'
+	'5';
+}
+#maincontentpanel {
+grid-template-areas:
+	'maincontent'
+	'sidebar';
+}
+#maincontent {
+	width: 100%;
+}
+#sidebar {
+	margin-top: 10px;
+	width: 100%;
+}
+#maincontentfield {
+grid-template-areas: 'audio'
+					'audio'
+					'video'
+					'video';
+}
+#footerdiv {
+grid-template-areas: 'aboutus' 
+					'quicknav' 
+					'legal';
+}
+}
