@@ -241,7 +241,7 @@ main {
 input, select, textarea, #submit {
 	margin-left: 2.5%;
 	width:95%;
-	box-sizing:border-box;
+	box-sizing:border-box; /* box properties */
 	padding:5px 5px 5px 5px;
 	border:1px solid;
 	border-radius:5px;

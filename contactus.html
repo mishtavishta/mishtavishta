@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
+	<!-- head start -->
 	<head>
+		<!-- page metadata start -->
 		<meta charset="utf-8">
 		<title>BWM | Contact Us</title>
 		<meta name="author" content="Mark Power">
@@ -11,11 +13,13 @@
 		<link rel="stylesheet" href="styles/contactusstyle.css">
 		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans&display=swap" rel="stylesheet">
+		<!-- page metadata end -->
 	</head>
-
+	<!-- head end -->
 	<body id="background">
 	<div id="fb-root"></div>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0" nonce="mEb7ola1"></script>
+		<!-- header start -->
 		<header>
 			<div id="headerdiv">
 				<div class="row">
@@ -24,6 +28,8 @@
 				</div>
 			</div>
 		</header>
+		<!-- header end -->
+		<!-- nav start -->
 		<nav>
 			<div id="navbar">
 				<div id="homebutton">
@@ -43,27 +49,29 @@
 				</div>
 			</div>
 		</nav>
+		<!-- nav end -->
+		<!-- main start -->
 		<main>
 			<div id="maincontentpanel">
 				<div id="maincontent">
 					<div id="maincontentfield">
 						<h1 id="maincontenttitle">Contact Blue Water Music...</h1>
 						<form class="contactform">
-							<label for="fullname">Full Name:</label><br/>
-							<input type="text" id="fullname" name="fullname" placeholder="Full Name" required><br/><br/>
+							<label for="fullname">Full Name:</label><br/> <!-- label form tag -->
+							<input type="text" id="fullname" name="fullname" placeholder="Full Name" required><br/><br/> <!-- input form tag -->
 							<label for="email">E-mail:</label><br/>
-							<input type="text" id="email" name="email" placeholder="E-mail" required><br/><br/>
+							<input type="text" id="email" name="email" placeholder="E-mail" required><br/><br/> <!-- email form tag -->
 							<label for="mailing">Would you like to be added to our mailing list?</label><br/>
 							<input type="checkbox" id="mailing" name="mailing"><br/><br/>
 							<label for="reason">Reason for contacting:</label><br/>
-							<select id="reason">
+							<select id="reason"> <!-- select form tag -->
 								<option value="concert">Concert</option>
 								<option value="merch">Merch</option>
 								<option value="promotion">Promotion</option>
 							</select><br/><br/>
 							<label for="comment">Comment:</label><br/>
-							<textarea id="comment" name="comment" placeholder="Write a comment here... (optional)"></textarea><br/><br/>
-							<input type="submit" id="submit" value="Submit">
+							<textarea id="comment" name="comment" placeholder="Write a comment here... (optional)"></textarea><br/><br/> <!-- textarea form tag -->
+							<input type="submit" id="submit" value="Submit"> <!-- submit form buttom tag -->
 						</form>
 					</div>
 				</div>
@@ -84,6 +92,8 @@
 				</div>
 			</div>
 		</main>
+		<!-- main end -->
+		<!-- footer start -->
 		<footer>
 			<div id="footerdiv">
 				<div id="aboutusdiv">
@@ -104,5 +114,6 @@
 				</div>
 			</div>
 		</footer>
+		<!-- footer end -->
 	</body>
 </html>
